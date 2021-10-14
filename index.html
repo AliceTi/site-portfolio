@@ -1,14 +1,723 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <meta dir="ltr">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bienvenue ! Découvrez les travaux que j'ai réalisé ces dernières années. Après un BTS en Design Graphique, une Licence en Technique du Son et de l'Image, je m'apprête à passer un titre professionnel en Web Design et Communication Digitale alors que j'ai débuté un Mastère en Direction Artistique mention UX Design. Mail : alice.tiffay@gmail.com | Tel : 06 80 40 05 92 | Insta : _iceti | Retrouvez mon profil sur LinkedIn !">
+    <meta name="description" content="Bienvenue ! Découvrez les travaux que j'ai réalisé ces dernières années. Après un BTS en Design Graphique, une Licence en Technique du Son et de l'Image, je m'apprête à passer un titre professionnel en Web Design et Communication Digitale alors que j'ai débuté un Mastère en Direction Artistique mention UX Design. Actuellement en alternance en tant que Graphiste Multimédia chez Groupe EFFICIO. Mail : alice.tiffay@gmail.com | Tel : 06 80 40 05 92 | Insta : _iceti | Retrouvez mon profil sur LinkedIn !">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/db3d5f8fee.js" crossorigin="anonymous"></script>
     <title>Alice TIFFAY | Portfolio</title>
 </head>
-<body>
-    
+<body id="top">
+    <header id="navbar">
+        <nav>
+            <div id="toggleButton" onclick="toggle()"><i class="fas fa-bars"></i></div>
+            <ul>
+                <li><a href="index.html"><img class="logoAlice" src="assets/img/logoAlice.svg" alt="logo Alice"></a></li>
+                <div id="myLinks">
+                    <li><a href="#mesProjets"><p>mes projets</p></a></li>
+                    <li><a href="#monCv"><p>mon cv</p></a></li>
+                    <li>
+                        <ul id="socials">
+                            <li><a href="https://www.instagram.com/_iceti/" target="new"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/alice-tiffay/" target="new"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCrD6ekUWa8jWO_NbBJ8nTeg" target="new"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>bienvenue sur mon portfolio !</h1>
+        <section id="mesProjets" onscroll="myFunction()">
+            <h2>mes projets</h2>
+            <article>
+                <h3>un ptit mot avant de commencer</h3>
+                <p>
+                    Ce regroupement de travaux a pour but de témoigner de ma polyvalence et de ma curiosité au travers de mes différentes productions qu’elles soient scolaires ou personnelles. N'hésitez pas à me contacter pour en discuter !
+                </p>
+            </article>
+
+            <article>
+                <h3>design graphique</h3>
+                <div> 
+                    <h4>cerblow // workshop typo</h4>
+                    <p>
+                        // Projet scolaire // En équipe, création d’une typographie lors d’un workshop sur le thème de la typographie musicale. Nous avons été inspiré par l’aspect cacophonique, chaotique, bruyant du son. Nous devions ensuite la mettre en situation sous forme d’un pangramme et sur des supports au choix.
+                    </p>
+                    <div class="galerie">
+                        <figure>
+                            <img src="assets/img/graphisme/cerblow/cerblow-specimen.jpg" alt="speciment typographique Cerblow">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/graphisme/cerblow/cerblow-jaquette.jpg" alt="jaquette typographique Cerblow">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/graphisme/cerblow/cerblow-affiche.jpg" alt="affiche typographique Cerblow">
+                        </figure>    
+                        <figure>
+                            <img src="assets/img/graphisme/cerblow/cerblow-table-01.jpg" alt="table d'exposition typographique Cerblow">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/cerblow/cerblow-mains.jpg" alt="experimentation typographique Cerblow">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/cerblow/cerblow-tests-01.jpg" alt="tests typographiques">
+                        </figure>    
+                    </div>               
+                </div>
+                <div> 
+                    <h4>chassés croisés // affiches</h4>  
+                    <p>
+                        // Projet perso // Participation à un concours d’affiche organisé par le lycée Pontus-de-Tyard à Chalon-sur-Saône pour un évènement de danse classique et contemporaine. À l’origine c’était projet scolaire, je me suis laissée porter par l’exercice et j’ai proposé plusieurs mises en page diverses.
+                    </p>             
+                    <div class="galerie">
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-01.png" alt="affiche Chassés Croisés">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-02.jpg" alt="affiche Chassés Croisés">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-03.jpg" alt="affiche Chassés Croisés">
+                        </figure>    
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-04.jpg" alt="affiche Chassés Croisés">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-05.jpg" alt="affiche Chassés Croisés">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-06.jpg" alt="affiche Chassés Croisés">
+                        </figure>    
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-07.jpg" alt="affiche Chassés Croisés">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-08.jpg" alt="affiche Chassés Croisés">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/chasse-croise/chasse-croise-affiche-mockup.jpg" alt="affiche Chassés Croisés">
+                        </figure>  
+                    </div>    
+                </div>
+                <div> 
+                    <h4>the fringe brothers // identité visuelle</h4>     
+                    <p>
+                        // Projet perso // Le premier confinement dû à la pandémie de la COVID-19 m’a permis de m’essayer au logiciel Blender. Inspirée par cette expérimentation, j’ai créé un groupe fictif de rock alternatif ainsi que différents supports de communication pour la promotion de leur album et leur prochain concert.
+                    </p>          
+                    <div class="galerie">
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-3d-clip.png" alt="capture d'écran élément 3D dans un clip fictif">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-3d.png" alt="modélisation 3D d'une tête stylisée">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-affiche.jpg" alt="affiche The Fringe Brothers">
+                        </figure>    
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-capture-clip.png" alt="capture d'écran élément 3D dans un clip fictif">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-jaquette.jpg" alt="jaquette The Fringe Brothers">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-pull-mockup.jpg" alt="goodies pull The Fringe Brothers">
+                        </figure>    
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-vinyl-mockup.jpg" alt="vinyl The Fringe Brothers">
+                        </figure>  
+                        <figure>
+                            <img src="assets/img/graphisme/the-fringe-brothers/fringe-brothers-vinyl.png" alt="vinyl The Fringe Brothers">
+                        </figure>  
+                    </div> 
+                </div>
+                <div> 
+                    <h4>yes typo // flyer</h4> 
+                    <p>
+                        // Projet perso // À l’origine c’était un projet scolaire qui consistait en la création d’un flyer à 3 volets sur le thème
+                        de notre choix, je me suis emparée du sujet pour proposer un document specimen de la typographie Fraunces.
+                    </p>              
+                    <div class="galerie">
+                        <figure>
+                            <img src="assets/img/graphisme/yes-typo/specimen-01.jpg" alt="specimen Fraunces">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/graphisme/yes-typo/specimen-02.jpg" alt="specimen Fraunces">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/graphisme/yes-typo/specimen-mockup-01.jpg" alt="mockup specimen Fraunces">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/graphisme/yes-typo/specimen-mockup-02.jpg" alt="mockup specimen Fraunces">
+                        </figure>
+                    </div> 
+                </div>
+            </article>
+
+            <article>
+                <h3>illustration</h3>
+                <div> 
+                    <h4>portraits vectoriels // numérique</h4>     
+                    <p>
+                        // Projet perso // Exercice personnel de vectorisation à partir de photographies trouvées sur Pinterest.
+                    </p>          
+                    <div class="galerie">
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_01.png" alt="portrait vectoriel">
+                        </figure> 
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_02.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_03.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_04.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_05.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_06.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_07.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_08.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_09.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_10.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_11.png" alt="portrait vectoriel">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/portraits-vecto/portraits vecto_12.png" alt="portrait vectoriel">
+                        </figure>
+                    </div>
+                </div>
+                <div> 
+                    <h4>portraits // traditionnel</h4> 
+                    <p>
+                        // Projet perso // Passionnée de dessin et ayant un attrait particulier pour le portrait, je me suis essayée à plusieurs techniques : graphite, fusain, marqueur, encre de chine, peinture acrylique... À partir de modèles trouvés sur Pinterest. Je poste ces productions sur mon compte instagram <a href="https://www.instagram.com/_iceti"><span>@_iceti</span></a> dédié à cette activité.
+                    </p>
+                    <div class="galerie">            
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-acrylique-01.jpg" alt="portrait acrylique">
+                            </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-acrylique-02.jpg" alt="portrait acrylique">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-acrylique-03.jpg" alt="portrait acrylique">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-acrylique-04.jpg" alt="portrait acrylique">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-acrylique-05.jpg" alt="portrait acrylique">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-acrylique-06.jpg" alt="portrait acrylique">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-encre-chine-01.jpg" alt="portrait encre de chine">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-fusain-02.jpg" alt="portrait fusain">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-fusain-03.jpg" alt="portrait fusain">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-graphite-01.jpg" alt="portrait graphite">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-graphite-02.jpg" alt="portrait graphite">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-graphite-03.jpg" alt="portrait graphite">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-marker-01.jpg" alt="portrait marker">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-marker-02.jpg" alt="portrait marker">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-stylo-01.jpg" alt="portrait stylo">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-stylo-02.jpg" alt="portrait stylo">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/portraits/portrait-stylo-03.jpg" alt="portrait stylo">
+                        </figure>
+                    </div>  
+                </div>
+                <div> 
+                    <h4>modèle vivant // observation</h4>  
+                    <p>
+                        // Projet scolaire // Réalisation de dessins d’observation durant des sessions de modèle vivant organisées par l’ESAAT de Roubaix.
+                    </p>             
+                    <div class="galerie">            
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/modele vivant/modele-vivant-01.png" alt="modèle vivant">
+                            </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/modele vivant/modele-vivant-02.jpg" alt="modèle vivant">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/modele vivant/modele-vivant-03.jpg" alt="modèle vivant">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/modele vivant/modele-vivant-04.jpg" alt="modèle vivant">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/modele vivant/modele-vivant-05.jpg" alt="modèle vivant">
+                        </figure>
+                    </div> 
+                </div>
+                <div> 
+                    <h4>productions personnelles // mixte</h4>   
+                    <p>
+                        // Projet perso // Ces productions m’ont permises de diversifier mes sujets et de me détacher de mes pratiques habituelles.
+                    </p>   
+                    <div class="galerie">      
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/crea/retouches/crea-acrylique-02.jpg" alt="créa acrylique">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/crea/retouches/crea-etude-statue-01.jpg" alt="créa étude de statue">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/crea/retouches/crea-etude-statue-02.jpg" alt="créa étude de statue">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/crea/retouches/crea-etude-statue-03.jpg" alt="créa étude de statue">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/crea/retouches/crea-marker-02.jpg" alt="créa marker">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/illustration/pratique-plastique/crea/retouches/crea-marker-04.jpg" alt="créa marker">
+                        </figure>
+                    </div>   
+                </div>
+            </article>
+
+            <article>
+                <h3>photographie</h3>
+                <div> 
+                    <h4>ville // argentique</h4>
+                    <p>
+                        // Projet perso // À l’origine projet scolaire qui visait à s’essayer à la photographie argentique et au développement de nos prises de vues, je me suis laissée porter par le sujet en déambulant dans les villes de Roubaix et Rouen en quête de composition graphique.
+                    </p>
+                    <div class="galerie">            
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-argentique-01.jpg" alt="photo d'une façade">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-argentique-02.jpg" alt="photo du pont flaubert">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-argentique-03.jpg" alt="photo du toit du zénith de Rouen">
+                        </figure>
+                    </div>   
+                </div>
+                <div> 
+                    <h4>composition industrielle // numérique</h4>     
+                    <p>
+                        // Projet perso // Inspirée par l’exercice précédent, j’ai poursuivi ma quête de composition photo-graphisme dans la zone portuaire du Portnord de Chalon-sur-Saône.
+                    </p>          
+                    <div class="galerie">            
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-portnord-01.jpg" alt="photo du port nord de Chalon-sur-Saône">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-portnord-03.jpg" alt="photo du port nord de Chalon-sur-Saône">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-portnord-02.jpg" alt="photo du port nord de Chalon-sur-Saône">
+                        </figure>
+                    </div>  
+                </div>
+                <div> 
+                    <h4>mouvement // lightpainting</h4>       
+                    <p>
+                        // Projet scolaire // Exercice de photographie visant à capturer le mouvement en utilisant la technique du lightpainting.
+                    </p>        
+                    <div class="galerie">            
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-lightpainting-01.JPG" alt="lightpainting">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-lightpainting-02.JPG" alt="lightpainting">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/photographie/photographisme/photographisme-lightpainting-03.JPG" alt="lightpainting">
+                        </figure>
+                    </div>  
+                </div>
+            </article>
+
+            <article>
+                <h3>design web</h3>
+                <div> 
+                    <h4>ornamentype // maquettage</h4> 
+                    <p>
+                        // Projet scolaire // Création de maquettes d’un site de visite aléatoire de Roubaix afin de découvrir son architecture
+                        et les travaux typographiques de la section graphisme de l’ESAAT de Roubaix.
+                    </p>              
+                    <div class="galerie">            
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-desktop-01.png" alt="ornamentype version desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-desktop-02.png" alt="ornamentype version desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-desktop-03.png" alt="ornamentype version desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-desktop-mockup.jpg" alt="ornamentype version desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-mobile-01.png" alt="ornamentype version mobile">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-mobile-02.png" alt="ornamentype version mobile">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-mobile-03.png" alt="ornamentype version mobile">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/ornamentype/ornamentype-mobile-mockup.jpg" alt="ornamentype version mobile">
+                        </figure>
+                    </div> 
+                </div>
+                <div> 
+                    <h4>guess my number // html5 bootstrap js</h4>    
+                    <p>
+                        // Projet perso // À l’orgine c’était un exercice visant à découvrir les fonctionnalités de javascript, je me suis appropriée le sujet pour proposer un mini jeu qui consiste à deviner un nombre entre 0 et 100 généré aléatoirement par le navigateur.
+                    </p>
+                    <div class="galerie">          
+                        <figure>
+                            <img src="assets/img/web/guess-my-number/guessmynumber-desktop.PNG" alt="guess-my-number version desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/guess-my-number/guessmynumber-mobile-bravo.PNG" alt="guess-my-number message bravo">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/guess-my-number/guessmynumber-mobile-moins.PNG" alt="guess-my-number message moins">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/guess-my-number/guessmynumber-mobile-plus.PNG" alt="guess-my-number message plus">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/guess-my-number/guessmynumber-mobile.PNG" alt="guess-my-number version mobile">
+                        </figure>
+                    </div> 
+                </div>
+                <div> 
+                    <h4>yadgé // gestion de projet</h4>      
+                    <p>
+                        // Projet scolaire // En équipe, mise en place des méthodes agiles. J’avais le rôle de SCRUM Master et devais coordonner un projet de page d’accueil pour le site d’un artisan de notre choix. L’outil de gestion de projet Trello m’a permis de regrouper l’ensemble de nos intentions et des contenus : brainstorming, etq, définition des objectifs, zonings, wireframes, maquettes, textes...
+                    </p>         
+                    <div class="galerie">          
+                        <figure>
+                            <img src="assets/img/web/yadge/process/trello-board-qr-code-yadge.png" alt="trello">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/trello-board-screenshot.PNG" alt="trello">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/yadge-brainstorming.jpg" alt="brainstorming">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/yadge-desktop-maquette.png" alt="maquette desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/yadge-desktop-wireframe.png" alt="wireframe desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/yadge-desktop-zoning.png" alt="zoning desktop">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/yadge-mobile-maquette.png" alt="maquette mobile">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/yadge-mobile-wireframe.png" alt="wireframe mobile">
+                        </figure>
+                        <figure>
+                            <img src="assets/img/web/yadge/process/yadge-mobile-zoning.jpg" alt="zoning mobile">
+                        </figure>
+                    </div> 
+                </div>
+            </article>
+
+            <article>
+                <h3>audiovisuel</h3>
+                <div> 
+                    <h4>homo hostilis // vidéo</h4>    
+                    <p>
+                        // Projet scolaire // Scénarisation, tournage et montage d’une vidéo en binôme sur le thème de la pollution. Nous voulions personnifier la nature dépassée et dévastée par ce que l’Homme en fait.
+                    </p>           
+                    <div class="galerie"><iframe width="560" height="315" src="https://www.youtube.com/embed/jaK7sfApq2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+                <div> 
+                    <h4>podcast // son</h4> 
+                    <p>
+                        // Projet scolaire // En binôme, scénarisation et mixage d’un podcast dans le but de s’initier à la prise de son en accordant une attention particulière à sa spatialisation et exploitation de sonothèques.
+                    </p>              
+                    <div class="galerie"><iframe width="560" height="315" src="https://www.youtube.com/embed/RAPKjFWmx0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+                <div> 
+                    <h4>la promesse de l’aube // animatique</h4>         
+                    <p>
+                        // Projet scolaire // D’après un extrait du roman «La Promesse de l’Aube» de Romain Gary, création d’un storyboard et de son animatique.
+                    </p>      
+                    <div class="galerie"><iframe width="560" height="315" src="https://www.youtube.com/embed/NmLOXJg2kiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+                <div> 
+                    <h4>animation perso // motion design</h4>     
+                    <p>
+                        // Projet perso // Réalisation d’une courte animation à l’occasion d’une recherche de logo pour ma page personnelle Instagram.
+                    </p>          
+                    <div class="galerie"><iframe width="560" height="315" src="https://www.youtube.com/embed/Iv6TjJREsUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+            </article>
+
+        </section>
+        <section id="monCv">
+            <h2>mon cv</h2>
+            <article>
+                <div>
+                    <h3>compétences</h3>
+                    <ul class="monCv">
+                        <li>
+                            <h4>design graphique</h4>
+                            <p>// mise en page, identité visuelle</p>
+                        </li>
+                        <li>
+                            <h4>illustration</h4>
+                            <p>// dessin numérique, dessin traditionnel</p>
+                        </li>
+                        <li>
+                            <h4>design web</h4>
+                            <p>// zoning, wireframe, maquette, intégration (html5, css3)</p>
+                        </li>
+                        <li>
+                            <h4>audiovisuel</h4>
+                            <p>// prises de vue photo/vidéo, montage vidéo, motion design</p>
+                        </li>
+                        <li>
+                            <h4>audiovisuel</h4>
+                            <p>// prises de vue photo/vidéo, montage vidéo, motion design</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>expériences</h3>
+                    <ul class="monCv">
+                        <li>
+                            <h5>août 2021 - actuellement</h5>
+                            <h4>// alternance // Groupe EFFICIO</h4>
+                            <p>réalisation de supports de communication print (cartes de visite, flyers, plv) et audiovisuels (vidéos de recrutement, animation de visuels pour les réseaux sociaux) en collaboration avec une Community Manager et un Responsable Marketing et Communication</p>
+                        </li>
+                        <li>
+                            <h5>mai - août 2020</h5>
+                            <h4>// stage // École de la deuxième chance de la loire</h4>
+                            <p>réalisation d’une série de vidéos, de flyers, d’affiches, d’un livret, de cartes de visite, d’une maquette web</p>
+                        </li>
+                        <li>
+                            <h5>octobre 2019 - mars 2020</h5>
+                            <h4>// projet tuteuré // Framatome</h4>
+                            <p>en binôme, réalisation de vidéos de prévention, refonte et animation d’une mascotte</p>
+                        </li>
+                        <li>
+                            <h5>mai - juin 2018</h5>
+                            <h4>// stage // Métropole Rouen Normandie</h4>
+                            <p>réalisation d’affiches pour de la communication interne, panneaux d’exposition pour des musées rouennais, logos ABCD de la Métropole et Chaleur de la Métropole (première expérience professionnelle dans le domaine de la communication visuelle)</p>
+                        </li>
+                        <li>
+                            <h5>depuis 2016</h5>
+                            <h4>// emploi saisonnier // Animatrice Centres de Loisirs</h4>
+                            <p>travail en équipe, communication avec les publics, menées d’activités, responsabilités</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>formation</h3>
+                    <ul class="monCv">
+                        <li>
+                            <h5>Actuellement</h5>
+                            <h4>Mastère Direction Artistique</h4>
+                            <p>mention UX design</p>
+                            <p>// LISAA Rennes</p>
+                        </li>
+                        <li>
+                            <h5>2021</h5>
+                            <h4>Formation Pro Web Design et Communication Digitale</h4>
+                            <p>titre professionnel de niveau III – BAC+2</p>
+                            <p>// La Manu, Le Havre</p>
+                        </li>
+                        <li>
+                            <h5>2020</h5>
+                            <h4>Licence Pro Techniques du Son et de l’Image</h4>
+                            <p>parcours Techniques et Activités de l’Image et du Son</p>
+                            <p>// IUT de Chalon-sur-Saône</p>
+                        </li>
+                        <li>
+                            <h5>2019</h5>
+                            <h4>BTS Design Graphique</h4>
+                            <p>option Communication et Médias Numériques</p>
+                            <p>// ESAAT, Roubaix</p>
+                        </li>
+                        <li>
+                            <h5>2017</h5>
+                            <h4>MàNAA</h4>
+                            <p>(Mise à Niveau en Arts Appliqués)</p>
+                            <p>// Lycée Saint-Vincent-de-Paul, Le Havre</p>
+                        </li>
+                        <li>
+                            <h5>2016</h5>
+                            <h4>Baccalauréat Scientifique</h4>
+                            <p>option SVT</p>
+                            <p>// Lycée Fénelon, Elbeuf</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>autre</h3>
+                    <ul class="monCv">
+                        <li>
+                            <h5>2017</h5>
+                            <h4>BAFA</h4>
+                            <p>(Brevet d’Aptitude aux Fonctions d’Animateur)spécialisation séjours à l’étranger</p>
+                            <p>// débuté à Thuit-Signol et finalisé à Londres</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <h3>logiciels</h3>
+                    <ul id="listeLogiciels">
+                        <li>XD</li>
+                        <li>Ai</li>
+                        <li>Id</li>
+                        <li>Ps</li>
+                        <li>Ae</li>
+                        <li>Pr</li>
+                        <li>VSCode</li>
+                    </ul>
+                </div>
+
+                <div>                
+                    <h3>langues</h3>
+                    <ul class="monCv">
+                        <li><p>Anglais (Niveau 4(B1) : Intermédiaire)</p></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>atouts</h3>
+                    <ul class="monCv">
+                        <li><p>Curieuse, réactive et persévérante</p></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>centres d'intérêts</h3>
+                    <ul class="monCv">
+                        <li>
+                            <h4>Le dessin</h4>
+                            <p>// traditionnel et numérique</p>
+                        </li>
+                        <li>
+                            <h4>Le cinéma</h4>
+                            <p>// animation et comédie dramatique</p>
+                        </li>
+                        <li>
+                            <h4>Les voyages</h4>
+                            <p>// roadtrips</p>
+                        </li>
+                        <li>
+                            <h4>Le basketball</h4>
+                            <p>// 7 ans en club</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html"><img class="logoAlice" src="assets/img/logoA_.svg" alt="logo Alice"></a>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="https://www.instagram.com/_iceti/" target="new"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/alice-tiffay/" target="new"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCrD6ekUWa8jWO_NbBJ8nTeg" target="new"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </li>
+            <li>2021 | ©Alice TIFFAY</li>
+        </ul>
+    </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var mesProjets = document.getElementById("mesProjets");
+        var monCv = document.getElementById("monCv");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+
+        function toggle() {
+        var x = document.getElementById("myLinks");
+        var toggleButton = document.getElementById("toggleButton");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+            toggleButton.style.alignItems = "unset";
+            toggleButton.style.justifyContent = "unset";
+            toggleButton.style.width = "unset";
+            toggleButton.style.height = "unset";
+            toggleButton.style.border = "unset";
+            toggleButton.style.borderRadius = "unset";
+            toggleButton.style.color = "unset";
+        } else {
+            x.style.display = "block";
+            x.style.width = "100%";
+            toggleButton.style.color = "#ffff00";
+        }
+        }
+        
+    </script>
 </body>
 </html>

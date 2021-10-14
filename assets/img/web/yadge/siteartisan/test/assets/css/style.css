@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 48px;
+    margin-left: 40px;
+}
+h2{
+    font-family: 'Noto Serif', serif;
+    font-size: 32px;
+}
+#presentationVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+nav{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10px 60% 10px 35% 10px;
+    grid-template-rows: 10px 1fr 10px;
+    background-color: white;
+}
+#navLeft{
+    grid-area: 2/2;
+    display: grid;
+    grid-template-columns: 5px 1fr 5px 1fr 5px 1fr 5px 1fr 5px 1fr 5px 1fr 5px;
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+}
+#navLogo{
+    grid-area: 1/2;
+}
+#navConcept{
+    grid-area: 1/4;
+}
+#navCatalogue{
+    grid-area: 1/6;
+}
+#navCreation{
+    grid-area: 1/8;
+}
+#navCoffret{
+    grid-area: 1/10;
+}
+#navContact{
+    grid-area: 1/12;
+}
+#navRight{
+    grid-area: 2/4;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr 80px 1fr 30px 1fr 30px 1fr 30px 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+    border-left: wheat solid 1px;
+}
+#navConnection{
+    grid-area: 1/2;
+}
+#navInscription{
+    grid-area: 1/4;
+}
+#navBasket{
+    grid-area: 1/6;
+}
+#navEn{
+    grid-area: 1/8;
+}
+#navFr{
+    grid-area: 1/10;
+}
+main{
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    grid-template-rows: 1fr;
+}
+section{
+    grid-area: 1/2;
+}
+article{
+    background-color: rgba(247, 233, 207, 0.75);
+    padding:40px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+p{
+    width: 70%;
+    color: black;
+    text-align: justify;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: 700;
+    color: #DD6E42;
+}
+.displayColumnCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.displayColumnLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.textSaut{
+    display: block;
+}
+.textItalic{
+    font-style: italic;
+}
+.line{
+    width: 10%;
+    height: 2px;
+    background-color: #DD6E42;
+}
+.textUnder{
+    padding-bottom: 5px;
+    border-bottom:solid 2px#DD6E42;
+}
