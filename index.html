@@ -19,12 +19,12 @@
         <nav>
             <div id="toggleButton" onclick="toggle()"><i class="fas fa-bars"></i></div>
             <ul>
-                <li><a href="index.html"><img class="logoAlice" src="assets/img/logoAlice.svg" alt="logo Alice"></a></li>
+                <li><a href="index.html"><img id="logoAlice" src="assets/img/logoAlice.svg" alt="logo Alice"></a></li>
                 <div id="myLinks">
                     <li><a href="#mesProjets"><p>mes projets</p></a></li>
                     <li><a href="#monCv"><p>mon cv</p></a></li>
-                    <li>
-                        <ul id="socials">
+                    <li id="socials">
+                        <ul id="socialsItems">
                             <li><a href="https://www.instagram.com/_iceti/" target="new"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/alice-tiffay/" target="new"><i class="fab fa-linkedin-in"></i></a></li>
                             <li><a href="https://www.youtube.com/channel/UCrD6ekUWa8jWO_NbBJ8nTeg" target="new"><i class="fab fa-youtube"></i></a></li>
@@ -671,7 +671,7 @@
     </main>
     <footer>
         <ul>
-            <li><a href="index.html"><img class="logoAlice" src="assets/img/logoA_.svg" alt="logo Alice"></a>
+            <li><a href="index.html"><img id="logoA" src="assets/img/logoA_.svg" alt="logo Alice"></a>
             </li>
             <li>
                 <ul>
@@ -690,6 +690,8 @@
         var mesProjets = document.getElementById("mesProjets");
         var monCv = document.getElementById("monCv");
         var sticky = navbar.offsetTop;
+        var x = document.getElementById("myLinks");
+        var toggleButton = document.getElementById("toggleButton");
         
         function myFunction() {
           if (window.pageYOffset >= sticky) {
@@ -700,9 +702,8 @@
         }
 
         function toggle() {
-        var x = document.getElementById("myLinks");
-        var toggleButton = document.getElementById("toggleButton");
         if (x.style.display === "block") {
+            navbar.style.height = "80px";
             x.style.display = "none";
             toggleButton.style.alignItems = "unset";
             toggleButton.style.justifyContent = "unset";
@@ -712,6 +713,7 @@
             toggleButton.style.borderRadius = "unset";
             toggleButton.style.color = "unset";
         } else {
+            navbar.style.height = "150px";
             x.style.display = "block";
             x.style.width = "100%";
             toggleButton.style.color = "#ffff00";

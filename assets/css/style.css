@@ -2,7 +2,7 @@
     border: solid 2px red;
 } */
 body{
-    margin: 0 10% 0 10%;
+    margin: 0;
     padding: 0;
     font-family: 'Heebo', sans-serif;
 }
@@ -10,12 +10,16 @@ h1, h2, h3, h4{
     font-family: 'Paytone One', sans-serif;
     margin-top: 60px;
 }
+#navbar{
+    height: 80px;
+}
 .sticky {
     background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
 }
 a{
     text-decoration: none;
@@ -35,11 +39,11 @@ ul, #myLinks{
     justify-content: space-between;
     align-items: center;
 }
-#socials{
+#socialsItems{
     justify-content: unset;
     padding-right: 10px;
 }
-#socials li{
+#socialsItems li{
     padding-left: unset;
 }
 li{
@@ -47,7 +51,14 @@ li{
     padding-left: 10px;
     padding-right: 10px;
 }
-.logoAlice{
+#logoAlice{
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 30;
+}
+#logoA{
     height: 50px;
 }
 
@@ -85,6 +96,9 @@ figure {
 #listeLogiciels{
     justify-content: unset;
 }
+main{
+    padding: 0 10% 0 10%;
+}
 main p{
     width: 50%;
 }
@@ -114,6 +128,20 @@ footer{
     }
     #myLinks{
         display: none;
+        text-align: right;
+        padding-right: 60px;
+    }
+    #socials{
+        display: flex;
+        justify-content: right;
+    }
+    #socialsItems{
+        padding-right: unset;
+    }
+    #socialsItems li{
+        padding-right: unset;
+        padding-left: 10px;
+        margin-top: -10px;
     }
     iframe{
         width: 100%;
